@@ -1,0 +1,12 @@
+.btn-danger {
+  background-color: #f95454;
+  /* Bs içerisindeki bazı elemanların still özellikleri ve bizim yazmış olduğumuz css kodları çakışabilir.Bu durumda 'Benim yazdığım geçerli olsun' diyebilmek için still özelliğinden sonra '!important' eklenir. */
+}
+
+.active {
+  background-color: #f95454 !important;
+}
+
+.kapsayıcı {
+  height: 200px;
+}
