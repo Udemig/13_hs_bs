@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+/* Navbar */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  height: 70px;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  padding: 0;
+}
+.navbar-brand {
+  padding-left: 50px;
+}
+.navbar-brand img {
+  width: 60px;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+
+/* * Banner */
+
+#banner {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  color: white;
+  padding-top: 5%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+  position: relative;
+  margin-bottom: 30px;
+  white-space: nowrap;
+}
+.title::before {
+  content: "";
+  background-color: #7b1798;
+  height: 5px;
+  width: 200px;
+  display: block;
+  margin: 0 auto !important;
+  transform: translateY(63px);
+}
+.title::after {
+  content: "";
+  background-color: #7b1798;
+  height: 10px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  transform: translateY(8px);
+}
+
+.btn {
+  width: 100px;
+  margin: 20px;
+}
+
+#banner a {
+  color: white;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/* * Services */
+
+#services {
+  padding: 80px 0;
+}
+
+.service-img {
+  width: 100px;
+}
+
+#services h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.service-btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 8px 25px !important;
+  border-radius: 20px;
+  white-space: nowrap;
+  width: auto;
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  color: white;
+  transition: all 0.5s;
+}
+.service-btn:hover {
+  color: white;
+  transform: scale(0.8);
+}
+
+/* About Us */
+#about-us {
+  padding: 55px 0 50px 0;
+  background-color: #f8f9fa;
+}
+#about-us ul li {
+  margin-top: 10px;
+}
+
+#about-us .title {
+  font-weight: bold;
+}
+
+/* Students */
+
+#students {
+  margin: 100px 20px;
+}
+
+.students {
+  margin-top: 50px;
+  border-left: 5px solid #7b1798;
+}
+
+.students img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/* Social Media */
+
+#social-media {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: all 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+  background-image: linear-gradient(to right, #b75bc5, #460b61);
+  color: white;
+}
+.footer-img {
+  width: 100% !important;
+}
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer-box .icons {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  background-image: linear-gradient(to right, #460b61, #b75bc5);
+  display: grid;
+  place-items: center;
+}
+
+.footer-box .form-control {
+  max-width: 250px;
+  margin-top: 25px;
+}
+.footer-box .service-btn {
+  border-radius: 10px;
+}
